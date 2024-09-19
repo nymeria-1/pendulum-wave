@@ -10,19 +10,26 @@ function Description(){
             </div>
             <div className={styles.description}>
                 <p>
-                    "Harmonic Echoes" explores the cyclical nature of feedback through a pendulum wave installation. Each pendulum, moving in and out of sync, symbolizes how ideas and actions reverberate through time, reflecting the continuous flow of feedback in both harmony and disruption.
+                    "Harmonic Echoes" explores the cyclical nature of feedback through a pendulum wave. The pendulums, moving in and out of sync, represent how ideas and actions reverberate over time, illustrating the flow of feedback in harmony and disruption.
                 </p>
                 <p>
-                    As the pendulums come together and drift apart, they represent the evolving exchange of feedback in any process. This rhythmic motion highlights how feedback loops shape progress, creating a dynamic interplay between order and chaos, much like real-world interactions.
+                    As the pendulums align and diverge, they embody the dynamic exchange of feedback in any process. This motion emphasizes how feedback loops drive progress, showcasing the interplay between order and chaos in real-world interactions.
                 </p>
 
-
                 <label>
-                    Jobelle Lagonoy<br/>
+                    <strong>Jobelle Lagonoy</strong><br/>
                     Creative Think Tank | September, 2024
                 </label>
 
+                <div className={styles.credits}>
+                    <label>
+                        <strong><span className={styles.playPause}>⏸︎ ⏵︎</span> Music</strong><br/>
+                        <a href="https://artlist.io/royalty-free-music/song/can-you-see-the-flow/79460">Can You See the Flow | Simon Osterhold</a><br />
+                        Provided by <a href="https://artlist.io"><u>Artlist</u></a>
+                    </label>
+                </div>
             </div>
+            
         </div>
     );
 }

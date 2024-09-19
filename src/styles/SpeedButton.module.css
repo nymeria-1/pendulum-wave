@@ -1,5 +1,5 @@
 .wrapper{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
     margin: 3.125em;
@@ -20,4 +20,16 @@
 .wrapper button:hover{
     font-size: 1em;
     transition: 1s ease-in-out;
+}
+
+@media (max-width: 768px){
+
+    .wrapper{
+        margin: 10%;
+    }
+
+    .wrapper button{
+        width: 3.125em;
+        height: 3.125em;
+    }
 }

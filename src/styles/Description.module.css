@@ -9,6 +9,7 @@
     width: 30%;
     min-width: 21.6em;
     /* height: fit-content; */
+    min-height: 90vh;
 }
 
 .title{
@@ -44,4 +45,31 @@
 
 .description label{
     opacity: 50%;
+    font-size: 1rem;
+}
+
+.playPause{
+    font-size: 1.3rem;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #35304F;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 28px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+
+@media (max-width: 768px){
+    .wrapper{
+        width: 90%;
+        min-width: 90%;
+        margin: 10%;
+    }
+
+    .title, .description{
+        padding: 1em;
+    }
 }

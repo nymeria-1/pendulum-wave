@@ -9,12 +9,13 @@ const PendulumWave = ({ speedMultiplier = 1 }) => {
       width="100%"
       height="100vh"
       viewBox="-9 0 18 27"
+      id="pendulum_wave"
     >
       <title>Pendulum wave animation</title>
       <desc>
         CSS3 animation of a pendulum wave, with the nearest ball making 60
         oscillations in two minutes, the next 61, the following one 62, and so
-        forth, by CMG Lee. Tap or hover over a pendulum to pause the animation.
+        forth. Tap or hover over a pendulum to pause the animation.
       </desc>
       <style>{`
         @keyframes rot { 

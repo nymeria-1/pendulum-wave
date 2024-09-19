@@ -167,8 +167,17 @@ a.secondary {
 
 .wrapper{
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   background: #020109;
   align-self: center;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+@media (max-width: 768px){
+  .wrapper{
+    flex-direction: column;
+  }
 }
