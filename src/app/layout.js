@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Pendulum Wave - Feedback Loop",
+  title: "Harmonic Echoes: The Rhythm of Feedback",
   description: "Created by Jobelle Lagonoy",
 };
 

@@ -1,0 +1,47 @@
+.wrapper{
+    /* position: absolute; */
+    top: 0;
+    margin: 50px 0 50px 50px;
+    border: 1px solid #221D47;
+    border-radius: 20px;
+    /* min-height: 30%; */
+    background-color: #110D28;
+    width: 30%;
+    min-width: 340px;
+    /* height: fit-content; */
+}
+
+.title{
+    padding: 30px;
+    border-bottom: 1px solid #221D47;
+}
+
+.title h1{
+    color: #d5d4df;
+    font-size: 32px;
+}
+
+.title span{
+    color: #d5d4df;
+    opacity: 80%;
+    font-size: 1.65rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.description{
+    padding: 30px;
+    color: #d5d4df;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    gap: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.description p{
+    opacity: 80%;
+}
+
+.description label{
+    opacity: 50%;
+}

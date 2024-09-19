@@ -62,12 +62,12 @@ const PendulumWave = ({ speedMultiplier = 1 }) => {
           <ellipse cx="0" cy="-45" rx="70" ry="50" fill="url(#grad_highlight)" stroke="none" />
         </g>
         <g id="pendulum">
-          <path d="M 0,0 v 100" stroke="#646464" strokeWidth="0.2" />
+          <path d="M 0,0 v 100" stroke="#5A5960" strokeWidth="0.2" />
           <use href="#orb" fill="currentColor" transform="translate(0,100) scale(0.07)" />
           {/* <image href="/images/rikersiv_ball.svg" transform="translate(-5,90) scale(0.06)" stroke="#fff" width="200" height="200" /> */}
         </g>
       </defs>
-      <circle cx="0" cy="0" r="99999" fill="#000" />
+      <circle cx="0" cy="0" r="99999" fill="#020109" />
       <g className="main">
         <g transform="scale(0.17728)">
           <use
