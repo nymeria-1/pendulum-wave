@@ -1,24 +1,24 @@
 .wrapper{
     /* position: absolute; */
     top: 0;
-    margin: 50px 0 50px 50px;
-    border: 1px solid #221D47;
-    border-radius: 20px;
+    margin: 3.125em 0 3.125em 3.125em;
+    border: 1px solid #35304F;
+    border-radius: 1.25em;
     /* min-height: 30%; */
     background-color: #110D28;
     width: 30%;
-    min-width: 340px;
+    min-width: 21.6em;
     /* height: fit-content; */
 }
 
 .title{
-    padding: 30px;
-    border-bottom: 1px solid #221D47;
+    padding: 1.875em;
+    border-bottom: 1px solid #35304F;
 }
 
 .title h1{
     color: #d5d4df;
-    font-size: 32px;
+    font-size: 2em;
 }
 
 .title span{
@@ -29,12 +29,12 @@
 }
 
 .description{
-    padding: 30px;
+    padding: 1.875em;
     color: #d5d4df;
     display: flex;
     flex-direction: column;
     font-size: 1.1rem;
-    gap: 30px;
+    gap: 1.875em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 

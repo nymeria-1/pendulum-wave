@@ -1,0 +1,23 @@
+.wrapper{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 3.125em;
+}
+
+.wrapper button{
+    width: 4.5vw;
+    height: 4.5vw;
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #35304F;
+    background-color: #110D28;
+    color: #d5d4df;
+    /* font-size: 1em; */
+}
+
+.wrapper button:hover{
+    font-size: 1em;
+    transition: 1s ease-in-out;
+}
