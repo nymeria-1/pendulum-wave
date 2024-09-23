@@ -8,6 +8,7 @@
     background-color: #110D28;
     width: 30%;
     min-width: 21.6em;
+    max-width: 21.6em;
     /* height: fit-content; */
     min-height: 90vh;
 }
