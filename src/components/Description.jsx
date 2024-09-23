@@ -11,7 +11,7 @@ function Description(){
             </div>
             <div className={styles.description}>
                 <p>
-                    "Harmonic Echoes" explores the cyclical nature of feedback through a pendulum wave. The pendulums, moving in and out of sync, represent how ideas and actions reverberate over time, illustrating the flow of feedback in harmony and disruption.
+                &quot;Harmonic Echoes&quot; explores the cyclical nature of feedback through a pendulum wave. The pendulums, moving in and out of sync, represent how ideas and actions reverberate over time, illustrating the flow of feedback in harmony and disruption.
                 </p>
                 <p>
                     As the pendulums align and diverge, they embody the dynamic exchange of feedback in any process. This motion emphasizes how feedback loops drive progress, showcasing the interplay between order and chaos in real-world interactions.
