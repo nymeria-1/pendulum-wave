@@ -39,8 +39,8 @@ function SpeedButton({ handleSpeedChange, speed }) {
         <Image
           src={isMuted ? "/images/mute-icon.svg" : "/images/speaker-icon.svg"}
           alt="Mute Icon"
-          width={25}
-          height={25}
+          width={20}
+          height={20}
         />
       </button>
 
