@@ -1,4 +1,5 @@
 import styles from "../styles/Description.module.css";
+import PendulumWave from "./PendulumWave";
 
 function Description(){
 
@@ -23,13 +24,12 @@ function Description(){
 
                 <div className={styles.credits}>
                     <label>
-                        <strong><span className={styles.playPause}>⏸︎ ⏵︎</span> Music</strong><br/>
+                        <strong>Music</strong><br/>
                         <a href="https://artlist.io/royalty-free-music/song/can-you-see-the-flow/79460">Can You See the Flow | Simon Osterhold</a><br />
                         Provided by <a href="https://artlist.io"><u>Artlist</u></a>
                     </label>
                 </div>
             </div>
-            
         </div>
     );
 }
